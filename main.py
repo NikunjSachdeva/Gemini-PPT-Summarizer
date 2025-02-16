@@ -4,7 +4,7 @@ from pptx import Presentation
 import os
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyB6uQooQ4Bp-_vo1uj2PVJ9ppbTvqoYX3I")
+genai.configure(api_key="API_KEY")
 model = genai.GenerativeModel("gemini-pro")
 
 # Function to extract text from PowerPoint
